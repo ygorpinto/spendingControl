@@ -6,6 +6,7 @@
  * @flow strict-local
  */
 import React from 'react';
+import mock from './mocks.json'
 import {
   SafeAreaView,
   ScrollView,
@@ -17,6 +18,7 @@ import {
 } from 'react-native';
 
 import Section from './src/Section/Section';
+import Title from './src/Title/Title';
 
 const App = () => {
 
@@ -26,8 +28,8 @@ const App = () => {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic">
         <View>
-          <Section title="Hot Company">
-            <Text>Hot Company</Text> 
+          <Section>
+            <Title/>
           </Section>
         </View>
       </ScrollView>
