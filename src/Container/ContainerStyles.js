@@ -1,6 +1,8 @@
+import React from 'react';
+
 import styled from "styled-components/native";
 
-const ContainerStyles = styled.view`
+const ContainerStyles = styled.View`
 align-items: center;
 flex-direction: column;
 `

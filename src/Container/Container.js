@@ -1,3 +1,5 @@
+import React from 'react';
+
 import ContainerStyles from "./ContainerStyles"
 
 const Container = ({children}) => {

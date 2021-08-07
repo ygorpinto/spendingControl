@@ -19,6 +19,7 @@ import {
 
 import Section from './src/Section/Section';
 import Title from './src/Title/Title';
+import Container from './src/Container/Container';
 
 const App = () => {
 
@@ -27,11 +28,11 @@ const App = () => {
       <StatusBar/>
       <ScrollView
         contentInsetAdjustmentBehavior="automatic">
-        <View>
+        <Container>
           <Section>
             <Title/>
           </Section>
-        </View>
+        </Container>
       </ScrollView>
     </SafeAreaView>
   );
