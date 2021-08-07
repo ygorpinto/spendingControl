@@ -11,14 +11,10 @@ import {
   SafeAreaView,
   ScrollView,
   StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
+  Text
 } from 'react-native';
 
 import Section from './src/Section/Section';
-import Title from './src/Title/Title';
 import Container from './src/Container/Container';
 
 const App = () => {
@@ -30,7 +26,7 @@ const App = () => {
         contentInsetAdjustmentBehavior="automatic">
         <Container>
           <Section>
-            <Title/>
+            <Text>{mock.title}</Text>
           </Section>
         </Container>
       </ScrollView>
