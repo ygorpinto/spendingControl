@@ -4,7 +4,7 @@ const Container = styled.SafeAreaView`
 flex: 1;
 justify-content: center;
 align-items: center;
-background-color: lightpink;
+background-color: #000000;
 `
 
 export default Container;
