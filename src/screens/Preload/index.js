@@ -7,7 +7,7 @@ const Preload = () => {
         <Container>
             <Image 
                 source={require('../../assets/icon.png')}
-                style={{width: 300, height: 300}}/>
+                style={{width: 250, height: 300, marginBottom:80}}/>
             <ActivityIndicator 
                 size="large" 
                 color="#000000" />
