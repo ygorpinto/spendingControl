@@ -6,6 +6,7 @@ import SignUp from '../screens/SignUp';
 const Stack = createNativeStackNavigator();
 
 const MainStack = () => {
+
     return (
         <Stack.Navigator
         initialRouteName="PreLoad"

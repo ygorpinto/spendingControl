@@ -1,8 +1,12 @@
 import * as React from 'react';
 import Container from './styles';
+import { useNavigation } from '@react-navigation/native';
 import { ActivityIndicator, Image, Text, View } from 'react-native';
 
 const Preload = () => {
+
+    const navigation = useNavigation();
+
     return (
         <Container>
             <Image 
