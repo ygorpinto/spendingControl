@@ -7,6 +7,13 @@ const Preload = () => {
 
     const navigation = useNavigation();
 
+    React.useEffect(()=>{
+        // testando o navigation apenas =D
+        setTimeout(()=>{
+            navigation.navigate('SignIn')
+        },3000)
+    },[])
+
     return (
         <Container>
             <Image 
