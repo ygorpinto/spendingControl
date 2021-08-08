@@ -5,7 +5,7 @@ import { Text } from 'react-native'
 const SignIn = () => {
     return (
         <Container>
-            <Text>Tela de Login</Text>
+            <Text>Hot Company</Text>
         </Container>
     )
 }
