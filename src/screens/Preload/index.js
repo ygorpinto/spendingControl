@@ -6,13 +6,11 @@ const Preload = () => {
     return (
         <Container>
             <Image 
-                source={{
-                uri:"https://i.pinimg.com/originals/80/36/d2/8036d28f9978251bfba406cec5e8f18f.gif"
-            }}
-                style={{width: 400, height: 400}}/>
+                source={require('../../assets/icon.png')}
+                style={{width: 300, height: 300}}/>
             <ActivityIndicator 
                 size="large" 
-                color="#b71ba2" />
+                color="#000000" />
         </Container>
     )
 }
