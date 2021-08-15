@@ -9,7 +9,7 @@ const SignUp = () => {
     const navegation = useNavigation();
 
     const handleLogin = () => {
-        
+        navegation.navigate('SignIn');
     }
 
     return (
@@ -31,7 +31,7 @@ const SignUp = () => {
                 />
                 <Text>Já possui uma conta?</Text>
                 <Button
-                onPress={handleNewAccount}
+                onPress={handleLogin}
                 title="Faça Login"/>
             </View>
         </Container>
