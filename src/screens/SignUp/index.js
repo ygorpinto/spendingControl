@@ -1,8 +1,17 @@
-import * as React from 'react';
+import * as React from 'react'; 
 import Container from './styles';
-import { Text } from 'react-native';
+import { Button, Text, View } from 'react-native'
+import { TextInput } from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/native';
 
 const SignUp = () => {
+
+    const navegation = useNavigation();
+
+    const handleLogin = () => {
+        
+    }
+
     return (
         <Container>
             <View>
