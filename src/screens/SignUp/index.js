@@ -22,12 +22,19 @@ const SignUp = () => {
                 <TextInput 
                 placeholder="Digite seu usuário"
                 keyboardType="default"/>
+                <TextInput 
+                placeholder="Digite seu Email"
+                keyboardType="default"/>               
                 <TextInput
                 placeholder="Digite sua senha" 
                 keyboardType="default"
                 textContentType="password"/>
+                <TextInput
+                placeholder="Confirme sua senha" 
+                keyboardType="default"
+                textContentType="password"/>
                 <Button
-                title="Entrar"
+                title="Cadastrar"
                 />
                 <Text>Já possui uma conta?</Text>
                 <Button
